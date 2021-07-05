@@ -1,0 +1,24 @@
+.aboutcontainer{
+    background-color: rgba($color: #ffffff, $alpha: 0.7)
+}
+
+
+.imgcontainer{
+    display:flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 550px;
+}
+.button2 {background-color: #008CBA;
+    display:flex;
+    flex-direction: column;
+    width: 5%;
+    margin-left: 0px;
+    font-size: 20px;
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    } /* Blue */
+    .button2:hover {
+        background-color: #4CAF50; /* Green */
+        color: white;
+      }
